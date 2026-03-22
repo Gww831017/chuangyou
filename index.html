@@ -474,6 +474,56 @@
             font-size: 60px;
             color: var(--white);
         }
+        /* 首席专家 - 更大更突出 */
+        .team-leader-card {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 40px rgba(26, 95, 122, 0.25);
+            transition: all 0.3s;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+        }
+        .team-leader-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 50px rgba(26, 95, 122, 0.35);
+        }
+        .team-leader-card .team-avatar {
+            height: 100%;
+            min-height: 200px;
+            background: rgba(255,255,255,0.15);
+            font-size: 80px;
+        }
+        .team-leader-card .team-info {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .team-leader-card .team-info h4 {
+            font-size: 28px;
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+        .team-leader-card .team-title {
+            color: var(--accent);
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .team-leader-card .team-dept {
+            color: rgba(255,255,255,0.8);
+            font-size: 15px;
+        }
+        .team-leader-card .team-bio {
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+            margin-top: 12px;
+            line-height: 1.6;
+        }
+        .team-leader-wrap {
+            margin-bottom: 30px;
+        }
         .team-info {
             padding: 20px;
         }
@@ -497,6 +547,13 @@
         }
         @media (max-width: 500px) {
             .team-grid { grid-template-columns: 1fr; }
+            .team-leader-card {
+                grid-template-columns: 1fr;
+            }
+            .team-leader-card .team-avatar {
+                height: 150px;
+                min-height: 150px;
+            }
         }
 
         /* 医院文化 */
@@ -828,15 +885,19 @@
             <h2 class="section-title">名医荟萃 · 护佑健康</h2>
             <p class="section-desc">医院拥有一支高素质的专业技术团队，为患者的健康保驾护航</p>
         </div>
-        <div class="team-grid">
-            <div class="team-card">
+        <div class="team-leader-wrap">
+            <div class="team-leader-card">
                 <div class="team-avatar">👨‍⚕️</div>
                 <div class="team-info">
                     <h4>余晓辉</h4>
-                    <p class="team-title">院长 · 副主任医师</p>
-                    <p class="team-dept">医院管理及骨科临床</p>
+                    <p class="team-title">首席骨科专家 · 院长</p>
+                    <p class="team-dept">副主任医师 · 医院管理及骨科临床</p>
+                    <p class="team-bio">从事骨科临床工作三十余年，在骨科常见病、多发病及疑难病症的诊治方面积累了丰富经验。擅长髋膝关节置换、脊柱外科手术、小儿骨科矫形等，主持开展多项骨科新技术项目。</p>
                 </div>
             </div>
+        </div>
+
+        <div class="team-grid" style="margin-top: 0;">
             <div class="team-card">
                 <div class="team-avatar">👨‍⚕️</div>
                 <div class="team-info">
@@ -888,6 +949,12 @@
             <div class="team-card">
                 <div class="team-avatar">👨‍⚕️</div>
                 <div class="team-info">
+                    <h4>向浩</h4>
+                    <p class="team-title">内科主任 · 主治医师</p>
+                    <p class="team-dept">内科</p>
+                </div>
+            </div>
+        </div>
                     <h4>向浩</h4>
                     <p class="team-title">内科主任 · 主治医师</p>
                     <p class="team-dept">内科</p>
