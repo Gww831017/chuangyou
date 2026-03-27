@@ -95,8 +95,8 @@ img { max-width: 100%; height: auto; }
 .intro-image { position: relative; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg); }
 .intro-image-placeholder { aspect-ratio: 4/3; background: linear-gradient(135deg, var(--bg-gray) 0%, var(--bg-light) 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; color: var(--text-light); }
 .intro-image-placeholder svg { width: 60px; height: 60px; fill: var(--border); }
-.intro-content h2 { font-size: 2rem; font-weight: 700; color: var(--text-dark); margin-bottom: 1.5rem; }
-.intro-content p { color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8; }
+.intro-content h2 { font-size: 1.25rem; font-weight: 700; color: var(--text-dark); margin-bottom: 1rem; line-height: 1.4; }
+.intro-content p { color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.7; font-size: 0.95rem; }
 .intro-features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .intro-feature { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem; background: var(--bg-lighter); border-radius: var(--radius); }
 .intro-feature-icon { width: 40px; height: 40px; background: var(--primary); color: var(--text-white); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
