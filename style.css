@@ -174,7 +174,7 @@ img { max-width: 100%; height: auto; }
 .honor-icon { width: 60px; height: 60px; margin: 0 auto 1rem; background: linear-gradient(135deg, var(--gold), var(--accent)); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 .honor-icon svg { width: 30px; height: 30px; fill: var(--text-white); }
 .honor-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
-.insurance-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 3rem; }
+.insurance-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 3rem; }
 .insurance-item { background: var(--bg-lighter); border-radius: var(--radius); padding: 1rem; text-align: center; border: 1px solid var(--border); }
 .insurance-item svg { width: 30px; height: 30px; fill: var(--primary); margin-bottom: 0.5rem; }
 .insurance-item p { font-size: 0.85rem; color: var(--text-secondary); font-weight: 500; }
