@@ -124,10 +124,10 @@ img { max-width: 100%; height: auto; }
 .expert-image-placeholder { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; color: var(--text-light); }
 .expert-avatar { width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary), var(--secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: 700; color: var(--text-white); }
 .expert-image-placeholder span { font-size: 0.75rem; }
-.expert-info { padding: 1.25rem; text-align: center; }
-.expert-info h3 { font-size: 1.125rem; font-weight: 700; color: var(--text-dark); margin-bottom: 0.25rem; }
-.expert-title { font-size: 0.875rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; }
-.expert-dept { font-size: 0.8rem; color: var(--text-light); }
+.expert-info { padding: 1rem; text-align: center; overflow: hidden; }
+.expert-info h3 { font-size: 1rem; font-weight: 700; color: var(--text-dark); margin-bottom: 0.25rem; word-break: break-word; }
+.expert-title { font-size: 0.8rem; color: var(--primary); font-weight: 600; margin-bottom: 0.25rem; word-break: break-word; }
+.expert-dept { font-size: 0.75rem; color: var(--text-light); word-break: break-word; }
 .expert-card-chairman { grid-column: 1 / -1; background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: var(--text-white); display: flex; flex-direction: row; min-height: 180px; }
 .expert-card-chairman .expert-image { width: 250px; flex-shrink: 0; }
 .expert-card-chairman .expert-info { display: flex; flex-direction: column; justify-content: center; text-align: left; padding: 1.5rem 2rem; flex: 1; }
