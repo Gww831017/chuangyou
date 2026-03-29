@@ -173,8 +173,8 @@ img { max-width: 100%; height: auto; }
 .honor-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
 .honor-icon { width: 60px; height: 60px; margin: 0 auto 1rem; background: linear-gradient(135deg, var(--gold), var(--accent)); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 .honor-icon svg { width: 30px; height: 30px; fill: var(--text-white); }
-.honor-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); line-height: 1.4; word-break: keep-all; }
-.honor-card-compact h3 { font-size: 0.85rem; }
+.honor-card h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); line-height: 1.4; word-break: keep-all; white-space: nowrap; }
+.honor-card-compact h3 { font-size: 0.78rem; white-space: nowrap; }
 .insurance-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 3rem; }
 .insurance-item { background: var(--bg-lighter); border-radius: var(--radius); padding: 1rem; text-align: center; border: 1px solid var(--border); }
 .insurance-item svg { width: 30px; height: 30px; fill: var(--primary); margin-bottom: 0.5rem; }
